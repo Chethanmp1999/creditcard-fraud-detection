@@ -1,0 +1,1 @@
+﻿select Count(*) from CardData where Cnum='4758118242866443' and Cnum in (select Cardnum from NewCard where Bname='ICICI Bank')
